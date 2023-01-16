@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pai{
+    width: 640px;
+    position: relative;
+}
+
+button{
+    width: 34px;
+    border: none;
+    padding: 8px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    background-color: #383838cb;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    right: 5px;
+    top: 200px;
+}
+
+button:hover{
+    background-color: #474747;
+    color: #ffff;
+}
