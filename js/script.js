@@ -33,18 +33,18 @@ var carThree = document.querySelector("#three")
 var carTwo = document.querySelector("#two")
 var carOne = document.querySelector("#one")
 
+var iEfect2 = 1;
 function carrosselEfect2(){
-    i++
-    if(i > 3){
-        i = 1
+    iEfect2++
+    if(iEfect2 > 3){
+        iEfect2 = 1
     };
-    console.log(i);
     
-    if(i == 2){
+    if(iEfect2 == 2){
         carThree.style.transform = "translateX(640px)"
-    }else if(i == 3){
+    }else if(iEfect2 == 3){
         carTwo.style.transform = "translateX(640px)"
-    }else if (i == 1){
+    }else if (iEfect2 == 1){
         carThree.style.transform = "translateX(0px)"
         carTwo.style.transform = "translateX(0px)"
     }
