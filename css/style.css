@@ -26,6 +26,14 @@ button{
     top: 200px;
 }
 
+#indicator{
+    position: absolute;
+    bottom: 10px;
+    right: 290px;
+    background: #474747;
+    border-radius: 8px;
+}
+
 button:hover{
     background-color: #474747;
     color: #ffff;
