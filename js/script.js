@@ -23,3 +23,35 @@ function carrossel(){
 button.addEventListener("click",()=>{
     carrossel()
 });
+
+
+
+
+
+var buttonEfect2 = document.querySelector("#button-efect-02")
+var carThree = document.querySelector("#three")
+var carTwo = document.querySelector("#two")
+var carOne = document.querySelector("#one")
+
+function carrosselEfect2(){
+    i++
+    if(i > 3){
+        i = 1
+    };
+    console.log(i);
+    
+    if(i == 2){
+        carThree.style.transform = "translateX(640px)"
+    }else if(i == 3){
+        carTwo.style.transform = "translateX(640px)"
+    }else if (i == 1){
+        carThree.style.transform = "translateX(0px)"
+        carTwo.style.transform = "translateX(0px)"
+    }
+
+}
+
+
+buttonEfect2.addEventListener("click", ()=>{
+    carrosselEfect2()
+})

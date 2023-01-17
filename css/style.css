@@ -7,7 +7,9 @@
 .pai{
     width: 640px;
     position: relative;
+    margin-bottom: 50px;
 }
+
 
 button{
     width: 34px;
@@ -37,4 +39,51 @@ button{
 button:hover{
     background-color: #474747;
     color: #ffff;
+}
+
+#efect-02{
+    width: 2000px;
+    display: flex;
+    position: fixed;
+    position: relative;
+}
+
+#efect-02 #two, #three{
+    position: absolute;
+    transition: 1s ease-out;
+    z-index: 1;
+}
+
+#efect-02 #one{
+    position: relative;
+}
+
+#efect-02 #indicator{
+    position: absolute;
+}
+
+
+#hide{
+    width: 640px;
+    background-color: #ffff;
+    z-index: 2;
+}
+
+#button-efect-02{
+    width: 34px;
+    height: 34px;
+    border: none;
+    padding: 8px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    background-color: #383838cb;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    left: -680px;
+    bottom: 0;
+    z-index: 4;
 }
